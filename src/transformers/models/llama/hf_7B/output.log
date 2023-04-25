@@ -1,0 +1,38 @@
+Fetching the tokenizer from /dccstor/panlin3/gengyu/cache/llama/tokenizer.model.
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@cccxc431.pok.ibm.com>
+Subject: Job 1094370: <python src/transformers/models/llama/convert_llama_weights_to_hf.py --input_dir /dccstor/panlin3/gengyu/cache/llama/ --model_size tokenizer_only --output_dir /dccstor/panlin3/gengyu/cache/llama/hf_7B> in cluster <cccCluster> Done
+
+Job <python src/transformers/models/llama/convert_llama_weights_to_hf.py --input_dir /dccstor/panlin3/gengyu/cache/llama/ --model_size tokenizer_only --output_dir /dccstor/panlin3/gengyu/cache/llama/hf_7B> was submitted from host <cccxl008.pok.ibm.com> by user <gengyu> in cluster <cccCluster> at Sun Mar 26 19:51:43 2023
+Job was executed on host(s) <8*cccxc431.pok.ibm.com>, in queue <x86_6h>, as user <gengyu> in cluster <cccCluster> at Sun Mar 26 19:51:44 2023
+</u/gengyu> was used as the home directory.
+</dccstor/panlin3/gengyu/transformers> was used as the working directory.
+Started at Sun Mar 26 19:51:44 2023
+Terminated at Sun Mar 26 19:52:10 2023
+Results reported at Sun Mar 26 19:52:10 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python src/transformers/models/llama/convert_llama_weights_to_hf.py --input_dir /dccstor/panlin3/gengyu/cache/llama/ --model_size tokenizer_only --output_dir /dccstor/panlin3/gengyu/cache/llama/hf_7B
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2.64 sec.
+    Max Memory :                                 204 MB
+    Average Memory :                             145.33 MB
+    Total Requested Memory :                     144179.00 MB
+    Delta Memory :                               143975.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   24 sec.
+    Turnaround time :                            27 sec.
+
+The output (if any) is above this job summary.
+
